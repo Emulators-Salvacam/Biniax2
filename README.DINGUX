@@ -1,0 +1,83 @@
+***************************
+*                         *
+*   Biniax2 for Dingux    *
+*                         *
+***************************
+
+I - English
+ 1°) Description
+ 2°) Compilation & Installation
+  a) Compilation
+  b) Installation
+ 3°) Credits
+
+II - Français
+ 1°) Description
+ 2°) Compilation & Installation
+  a) Compilation
+  b) Installation
+ 3°) Remerciements
+
+------------------------------------
+
+I - English
+
+1°) Description
+
+This is a version of Biniax2 (http://www.biniax.com/) for Dingux (the GNU/Linux distribution for Dingoo) using dingoo-uclibc-toolchain-06-17 (http://dl.openhandhelds.org/cgi-bin/dingoo.cgi?0,0,0,0,14,97).
+
+2°) Compilation & Installation
+
+a) Compilation
+I will suppose the archive was extracted in your ~/
+
+In a terminal, do :
+
+export PATH="${PATH}:/opt/dingoo-uclibc-toolchain-06-17/usr/bin"
+cd ~/Biniax2/src
+make
+
+If you do not have any error, the compilation is done.
+
+b) Installation
+
+To install Biniax2, just copy Biniax2 and the data folder into /usr/games/ on your SD card.
+
+Do not forget to allow Biniax2 to be executed (ie chmod +x biniax2)
+
+3°) Credits
+
+I want to thank Jordan Tuzsuzov (http://www.biniax.com/) for his release of Biniax2, Badablek, yoannd26 zear and stuckie for their help.
+
+------------------------------------
+
+II - Français
+
+Voici une version de Biniax2 (http://www.biniax.com/) pour Dingux (la distribution GNU/Linux de la Dingoo) utilisant dingoo-uclibc-toolchain-06-17 (http://dl.openhandhelds.org/cgi-bin/dingoo.cgi?0,0,0,0,14,97).
+
+2°) Compilation & Installation
+
+a) Compilation
+
+Je suppose que l'archive a été extraite dans votre ~/
+
+Dans un terminal, faites :
+
+export PATH="${PATH}:/opt/dingoo-uclibc-toolchain-06-17/usr/bin"
+cd ~/Bindiux2
+make
+
+Si vous n'avez pas d'erreur, c'est que la compilation est terminée.
+
+b) Installation
+
+Pour installer Biniax2, il suffit de copier Biniax2 et le répertoire data dans /usr/games/ sur votre carte SD.
+
+N'oubliez pas d'autoriser l'exécution de Biniax2 (ie chmod +x biniax2).
+
+3°) Remerciements
+
+Je tiens à remercier Jordan Tuzsuzov (http://www.biniax.com/) pour sa release de Biniax2, Badablek, yoannd26, zear et stuckie pour leur aide.
+
+
+Ezial for Gx-Mod (www.gx-mod.com)
