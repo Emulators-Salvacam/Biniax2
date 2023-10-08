@@ -79,7 +79,8 @@ void inpUpdate()
 			case SDL_KEYDOWN:
 				switch( event.key.keysym.sym ) 
 				{
-					case SDLK_SPACE : 
+					//case SDLK_SPACE : // Dingoo X
+					case SDLK_LSHIFT : // Bittboy X
 						_Inp.keyC		= BNX_TRUE;
 						break;
 					case SDLK_RETURN : 
@@ -111,7 +112,8 @@ void inpUpdate()
 					case SDLK_s : 
 						_Inp.keyAltDown	= BNX_TRUE;
 						break;
-					case SDLK_LALT : 
+					//case SDLK_LALT : // Dingoo B
+					case SDLK_LCTRL : // Bittboy B
 						_Inp.keyAltLeft	= BNX_TRUE;
 						break;
 					case SDLK_d : 
@@ -128,10 +130,12 @@ void inpUpdate()
 					case SDLK_PAGEDOWN : 
 						_Inp.keyPageDown= BNX_TRUE;
 						break;
-					case SDLK_LSHIFT : 
+					//case SDLK_LSHIFT : // Dingoo Y
+					case SDLK_SPACE : // Bittboy Y
 						_Inp.keyShiftLeft		= BNX_TRUE;
 						break;
-					case SDLK_LCTRL : 
+					//case SDLK_LCTRL : // Dingoo A
+					case SDLK_LALT : // Bittboy A
 						_Inp.keyCtrlLeft		= BNX_TRUE;
 						break;
 				}
